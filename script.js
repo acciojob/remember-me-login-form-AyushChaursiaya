@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Function to handle login as existing user
         function handleExistingLogin() {
             const savedUsername = localStorage.getItem('username');
-            alert('Logged in as ' + savedUsername);
+            alert('Logged in as' + savedUsername);
         }
 
         // Event listeners
